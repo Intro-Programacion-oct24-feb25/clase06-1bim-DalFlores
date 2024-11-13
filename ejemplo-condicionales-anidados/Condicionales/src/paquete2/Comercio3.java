@@ -28,7 +28,7 @@ public class Comercio3 {
         double coeficiente = 0.6;
         double bono  = 0;
         
-        double porcentajeSeguro = 8;
+        double porcentajeSeguro =;
         double adicionalSeguro;
         
         double sueldoFinal; 
@@ -43,11 +43,39 @@ public class Comercio3 {
         edad = entrada.nextInt();
 
         System.out.println("Ingrese el sueldo básico por favor");
-        sueldoBasico = entrada.nextDouble();        
+        sueldoBasico = entrada.nextDouble();
+
+        System.out.println("Ingrese el valor del porcentaje del seguro");
+        porcentajeSeguro = entrada.nextDouble();        
         
         System.out.println("Ingrese el número de productos vendidos "
                 + "por favor");
         numeroProductos = entrada.nextInt();
+        
+        // opción 1
+        //if (porcentajeSeguro >= 1 && porcentajeSeguro <= 15) {
+            //porcentajeSeguro = porcentajeSeguro + 0;
+       //} else {
+            //porcentajeSeguro = 10;
+            //Esta opcion si me sirvio ya que asignamos el rango especifico que nos da en la problematica
+        //}
+
+        // opción 2
+        //if (porcentajeSeguro > 15) {
+            //porcentajeSeguro = 10;
+            //Esta opcion no me sirvio ya que no cumple con el rango asigando en la problematica
+        //}
+
+         // opción 3
+        //if (porcentajeSeguro < 1 || porcentajeSeguro > 15) {
+            //porcentajeSeguro = 10;
+            //esta si cumple con los valores asignados de la problematica ya que es lo mismo que la primera opcion solo con un or
+        //}
+
+        // opción 4
+        //if (porcentajeSeguro < 1 && porcentajeSeguro > 15) {
+            //porcentajeSeguro = 10;
+            //esta opcion no cumple con los requerimientos asignados en la problematica 
         
         // calcular la productividad
         productividad = numeroProductos * coeficiente;
