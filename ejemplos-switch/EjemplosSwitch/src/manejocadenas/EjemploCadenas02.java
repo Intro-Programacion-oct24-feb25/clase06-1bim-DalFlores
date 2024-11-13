@@ -30,7 +30,7 @@ public class EjemploCadenas02 {
         System.out.println("Ingrese la provincia");
         String provincia = entrada.nextLine(); // 
         
-        cadenaFinal = String.format("%sProvincia:%s\n",  
+        cadenaFinal = String.format("%sProvincia:%s\n",  //string.format se usa para acumular valores a una cadena
                 cadenaFinal,
                 provincia);
         
