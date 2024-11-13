@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  * @author reroes
  */
-public class Comercio {
+public class Comercio3 {
     
     public static void main(String[] args) {
         
