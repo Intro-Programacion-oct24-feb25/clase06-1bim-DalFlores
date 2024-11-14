@@ -33,9 +33,24 @@ public class Ejemplo011 {
                 System.out.printf("%s es el segundo día "
                         + "de la semana", cadena);
                 break;
+                
+                case "miercoles":
+                System.out.printf("%s es el tercer día "
+                        + "de la semana", cadena);
+                break;
+                
+                case "jueves":
+                System.out.printf("%s es el cuarto día "
+                        + "de la semana", cadena);
+                break;
             
             case "viernes":
                 System.out.printf("%s es el quinto día "
+                        + "de la semana", cadena);
+                break;
+                
+                case "sabado":
+                System.out.printf("%s es el sexto día "
                         + "de la semana", cadena);
                 break;
             
